@@ -1,0 +1,32 @@
+#pane{
+    -fx-background-image: url("1.jpg");
+    -fx-background-size: 400 450;
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+
+
+.label {
+    -fx-font-size: 16px;
+    -fx-padding: 9px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00d4ec;
+    -fx-background-color: white;
+	-fx-background-radius: 50px;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+
+.button {
+	-fx-pref-width: 200px;
+	-fx-font-size: 18px;
+    -fx-text-fill: white;
+    -fx-font-family: "Trebuchet MS";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#0196b6, #0196b6);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#00d4ec, #00d4ec);
+}
+
